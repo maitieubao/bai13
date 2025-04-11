@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Facebook Plugin Demo</title>
+  <link rel="stylesheet" href="bai13.css">
+</head>
+<body>
+  <!-- Facebook SDK -->
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" 
+    src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v19.0" nonce="abc123">
+  </script>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-container">
+      <h2>Website Demo Tiện Ích Facebook</h2>
+      <nav>
+        <a href="#">Trang chủ</a>
+        <a href="#">Giới thiệu</a>
+        <a href="#">Liên hệ</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <h1>Demo Nhúng Facebook</h1>
+
+    <!-- Nút Like + Share -->
+    <div class="fb-section">
+      <h3>Nút Like & Share</h3>
+      <div class="fb-like" 
+           data-href="https://poly.edu.vn" 
+           data-width=""
+           data-layout="standard"
+           data-action="like"
+           data-size="large"
+           data-share="true">
+      </div>
+    </div>
+
+    <!-- Bình luận -->
+    <div class="fb-section">
+      <h3>Bình luận</h3>
+      <div class="fb-comments" 
+           data-href="https://poly.edu.vn" 
+           data-width="100%" 
+           data-numposts="5">
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>&copy; 2025 Website của tôi. Đã đăng ký bản quyền.</p>
+  </footer>
+</body>
+</html>
